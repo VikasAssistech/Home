@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  padding: 215px;
+  text-align: center;
+  background: #000000;
+  color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 6px 10px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+</style>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-155313115-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-155313115-1');
+</script>
+
+</head>
+<body>
+
+<div class="navbar">
+  <a style="font-family:Times New Roman;" href="index.html">Home</a>
+  <a style="font-family:Times New Roman;" href="ongoing.html">Ongoing</a>
+  <a style="font-family:Times New Roman;" href="#">Publications</a>
+  <a style="font-family:Times New Roman;" href="https://github.com/VikasAssistech">Git</a>
+  <a style="font-family:Times New Roman;" href="https://www.linkedin.com/in/vikas-upadhyay-0ba3628a/">Linkdin</a>
+  
+  <a style="font-family:Times New Roman;" href="poetry.html" class="right">Poetry</a>
+  <a style="font-family:Times New Roman;" href="#" class="right">My Fave</a>
+  <a style="font-family:Times New Roman;" href="http://web.iitd.ac.in/~anz188059/" class="right">Old Page</a>
+  <a style="font-family:Times New Roman;" href="cv.html" class="right">CV</a>
+  
+</div>
+
+<div class="header">
+  <h1 style="font-family:Times New Roman;">Hi there</h1>
+  <h2 style="font-family:Times New Roman;">Thanks!</h2> 
+  <h3 style="font-family:Times New Roman;"> you can get back to me on <a href="mailto:vikas.upadhyay@cse.iitd.ac.in" target="_top">email</a></h3>
+  <!-- <h3 style="font-family:Times New Roman;"> you can get back to me on <a href="https://mail.google.com/mail/?extsrc=mailto&url=mailto%3A%3Fto%3Dvikas.upadhyay%40cse.iitd.ac.in%26bcc%3Dvikasjk4%40gmail.com%26subject%3DHi%2520There" target="_top">email.</a></h3> -->
+  
+</div>
+
+
+
+</body>
+</html>
+
